@@ -2,7 +2,7 @@ package etf
 
 import "time"
 
-// CSI300 - 用于表示沪深300指数的数据结构。
+// CSI300  用于表示沪深300指数的数据结构。
 type CSI300 struct {
 	DirectionColor   string    `json:"direction_color"`   // 方向颜色，用于前端显示不同的文本颜色
 	RowDate          string    `json:"rowDate"`           // 日期的字符串表示，格式为"2008年12月30日"
